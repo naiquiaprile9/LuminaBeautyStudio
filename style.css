@@ -1,0 +1,92 @@
+
+*{margin: 0;
+padding: 0;
+}
+
+
+
+
+body{
+    background-color: #cee6f3;
+    
+}
+
+/*barra de navegacion*/
+.botones {
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none
+}
+
+.barra ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 15px;;
+    font-family: 'Bebas Neue', serif;
+    color: #030405;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+
+}
+
+h1{
+    font-size: 20px;
+    color: #1a5868;
+}
+
+/*historia y descripcion*/
+
+h2{ 
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    color: #1B365D;
+    margin: 100px 200px 20px 200px;
+}   
+
+.subtitulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+/*tarjetas de productos*/
+
+.tarjetas-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+    padding: 16px;
+    border: 2px solid #140606;
+    border-radius: 16px;
+    margin: 30px;
+    background-color: #5193f0;
+}
+
+.tarjetas img{
+    width: 100%;
+}
+.tarjetas-servicios2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
