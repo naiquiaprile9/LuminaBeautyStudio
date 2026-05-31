@@ -1,0 +1,18 @@
+// archivos principales de sass 
+
+// base: reset y tipografias generales
+@use "./partials/base/reset";
+@use "./partials/base/tipografia";
+
+//components 
+@use "./partials/components/buttoms";
+@use "./partials/components/cards";
+@use "./partials/components/media";
+@use "./partials/components/tags";
+
+// paginas
+@use "./partials/layout/index";
+@use "./partials/layout/contacto"; 
+@use "./partials/layout/servicios";
+@use "./partials/layout/experiencia";
+
