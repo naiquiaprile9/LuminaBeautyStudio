@@ -1,0 +1,23 @@
+@use "../utilities/variables";
+
+// Reset basico para eliminar espacios por defecto del navegador.
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Fondo general del sitio.
+body {
+    margin: 0;
+}
+
+// Listas sin viñetas por defecto.
+li {
+    list-style: none;
+}
+
+// Links sin subrayado por defecto.
+a {
+    text-decoration: none;
+}

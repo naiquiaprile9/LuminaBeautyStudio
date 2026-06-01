@@ -1,54 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Lumina Beauty Studio</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
-    <style>
-         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-    </style>
-    <style>
-         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-    </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
-    </style>
+
+    
+    <link rel="stylesheet" href="./styles/styles.css">
     
 
 </head>
 <body>
     <header>
-        <section">
-
-
-            <nav>
-                
-             <h1>Lumina Beauty Studio</h1>
-
-             <ul class="nav justify-content-end">
-               <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+             <a class="navbar-brand titulo" href="index.html">Lumina Beauty Studio</a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Servicios</a>
-                </li>
-                 <li class="nav-item">
-                    <a class="nav-link" href="#">Experiencia</a>
+                    <a class="nav-link" href="./styles/experiencia.html">Experiencia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="./styles/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="./styles/contacto.html">Contacto</a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                     </ul>
                 </li>
             </ul>
-            
-            </nav>
-
-
-
-        </section>
+        </div>
+  </div>
+    </nav>
+        
 
 
 
@@ -56,9 +50,12 @@
 
     <main>
         <section class="subtitulo">
-          <article class="subtitulo">
-          <h2>un espacio abierto a vos</h2>
+          <article class="subtitulo-titulo">
+          
+            <h2>Bienvenidos a Lumina Beauty</h2>
+          
           </article>
+          
           <article class="parrafo-subtitulo">
             <p>Descubre la excelencia en Belleza y Bienestar</p>
           </article>
@@ -68,9 +65,11 @@
           <article class="imagen-historia">
             <img src="https://i.pinimg.com/736x/e1/d9/51/e1d951bcf9887d73a0826ecb60529d4c.jpg" alt="Imagen de historia">
          </article>
+         
          <article class="subtitulo-historia">
             <h3>Nuestra mision e historia</h3>
          </article>
+         
          <article class="parrafo-historia">
            <p>Lumina nació de la convicción de que el cuidado personal es un ritual necesario en un mundo que nunca se detiene. Nuestra historia comenzó con una visión clara: crear un santuario donde la ciencia del cuidado corporal y la serenidad se encontraran en perfecto equilibrio. Entendemos que cada persona es única. Por eso, en Lumina, nos propusimos ofrecer una estética integral que va más allá de lo superficial, desde la precisión en una pedicura hasta la profundidad sanadora de un masaje. Todo en nuestro espacio está diseñado para que tu piel respire y tu mente descanse.</p>
            <p>En Lumina Beauty Studio, nos enorgullece ofrecer un espacio abierto y acogedor para que cada cliente se sienta cómodo y bienvenido. Nuestro compromiso es brindarte una experiencia de belleza excepcional, donde la excelencia en el servicio y la atención personalizada son nuestra prioridad. Descubre un ambiente relajante y profesional, diseñado para realzar tu belleza natural y promover tu bienestar integral. En Lumina Beauty Studio, tu satisfacción es nuestra misión, y estamos aquí para ayudarte a lucir y sentirte lo mejor posible.</p>
@@ -111,5 +110,7 @@
 
 
     </footer>
+  <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

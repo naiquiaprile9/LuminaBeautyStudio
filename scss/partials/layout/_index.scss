@@ -1,0 +1,16 @@
+
+@use "../base/tipografia.scss";
+@use "../utilities/variables.scss";
+
+.container-fluid {
+    margin: 0%;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    color: variables.$color-primario;
+    width: 100%;
+}
+
+.titulo {
+    font-family: 'Cormorant Garamond', serif;
+    color: variables.$color-primario;
+}
